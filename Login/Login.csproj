@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\bllTblClientes.cs" />
+    <Compile Include="DAL\DALMysql.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -111,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DTO\" />
+    <Folder Include="imgs\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
