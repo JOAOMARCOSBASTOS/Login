@@ -17,25 +17,23 @@
                     <asp:Image ID="imgLogo" ImageUrl="../imgs/logoCotemig.PNG" runat="server" Width="200px" />
                     <br /><br />
                     <asp:Label ID="lblTitulo" runat="server" Font-Size="XX-Large" Text="Acesso ao Sistema"></asp:Label>
-                    <br /><br />
+                    <br />
+                    <br />
+                    <asp:Label ID="msgerro" runat="server" ForeColor="Red" Text="." Visible="false"></asp:Label>
+                    <br />
                     <asp:Label ID="lblEmail" runat="server" Text="Email"></asp:Label>
                     <asp:TextBox ID="txtEmail" type="email" runat="server" CssClass="form-control"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="ValidarEmail"
-                        ControlToValidate="txtEmail"
-                        ErrorMessage="O campo email é obrigatorio!"
-                        ForeColor="Red"
-                        runat="server" />
 
                     <br/>
                     <asp:Label ID="lblsenha" runat="server" Text="Senha"></asp:Label>
                     <asp:TextBox ID="txtsenha" type="password" runat="server" CssClass="form-control"></asp:TextBox>
                     <br/>
 
-                    <asp:Button ID="btnSingin" class="btn btn-lg btn-primary btn-block" runat="server" Text="Login" />
+                    <asp:Button ID="btnSingin" class="btn btn-lg btn-primary btn-block" runat="server" Text="Login" OnClick="btnSignin_Click"/>
                     <p>
 
                     </p>
-                    <asp:LinkButton ID="btncadastrar" runat="server">Não Sou Cadastrado. Clique aqui</asp:LinkButton>
+                    <asp:LinkButton ID="btncadastrar" class="btn btn-link" runat="server">Não Sou Cadastrado. Clique aqui</asp:LinkButton>
                     <br />
                     <asp:Label ID="lblNomeEmpresa" runat="server" Text="Nome Empresa"></asp:Label>
                 </div>

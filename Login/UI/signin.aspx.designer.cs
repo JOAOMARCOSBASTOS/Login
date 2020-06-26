@@ -42,6 +42,15 @@ namespace Login
         protected global::System.Web.UI.WebControls.Label lblTitulo;
 
         /// <summary>
+        /// Controle msgerro.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label msgerro;
+
+        /// <summary>
         /// Controle lblEmail.
         /// </summary>
         /// <remarks>
@@ -58,15 +67,6 @@ namespace Login
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
-
-        /// <summary>
-        /// Controle ValidarEmail.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator ValidarEmail;
 
         /// <summary>
         /// Controle lblsenha.

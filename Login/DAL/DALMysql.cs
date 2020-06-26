@@ -12,9 +12,9 @@ namespace Login.DAL
         private MySqlConnection Conexao;
 
         private string string_conexao = "Persist security info = false;" +
-                                        "servor = localhost;" +
-                                        "database=Bdlogin;" +
-                                        "user=root; pwd=;";
+                                        "server = localhost;" +
+                                        "database=BdLogin;" +
+                                        "user=root; pwd=01121973j;";
 
         public void conectar()
         {
